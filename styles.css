@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+.pentagono{
+    width: 100%;
+    height: 300px;
+    clip-path: polygon(100% 0, 100% 75%, 50% 90%, 0 75%, 0 0);
+    background-color: #0B70B2;
+    text-align: center;
+    padding: 3rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 500;
+    font-size: 4vw;
+}
