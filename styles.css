@@ -83,7 +83,6 @@ p, span {
 .b-check {
     width: 3rem;
     height: 2rem;
-
 }
 
 .un-check {
@@ -91,10 +90,10 @@ p, span {
 }
 
 .foto-personal {
-    position: relative;
-    left: 5rem;
-    top: -114.5rem;
-    width: 60%;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    width: 20%;
     height: auto;
     border-radius: 50%;
     border: 5px solid #ABABAB;
@@ -120,4 +119,107 @@ a {
 
 a:hover{
     color:#3F9CD5;
+}
+
+@media only screen and (max-width: 480px) {
+    h1, h2, h3 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        font-size: 10vw;
+    }
+    h6 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 300;
+        font-size: 7vw;
+    }
+    .foto-personal {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        width: 50%;
+    }
+    .titulos {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 10vw;
+        color: #3F9CD5;
+    }
+    p, span {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    h1, h2, h3 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        font-size: 10vw;
+    }
+    h6 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 300;
+        font-size: 7vw;
+    }
+    .foto-personal {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        width: 50%;
+    }
+    .titulos {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 10vw;
+        color: #3F9CD5;
+    }
+    p, span {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1, h2, h3 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        font-size: 3.5vw;
+    }
+    h6 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 300;
+        font-size: 2.5vw;
+    }
+    .foto-personal {
+        position: absolute;
+        top: 40%;
+        left: 6%;
+        width: 20%;
+    }
+    .titulos {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 3.5vw;
+        color: #3F9CD5;
+    }
+    
+    p, span {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 700px) and (orientation: portrait) {
+    .foto-personal {
+        position: absolute;
+        top: 12%;
+        left: 6%;
+    }
+    .b-check {
+        width: 2rem;
+        height: 2rem;
+    }
 }
