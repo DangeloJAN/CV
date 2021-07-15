@@ -179,6 +179,10 @@ a:hover{
         font-weight: 600;
         font-size: 5vw;
     }
+    .b-check {
+        width: 1rem;
+        height: 2rem;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -203,12 +207,15 @@ a:hover{
         font-weight: 600;
         font-size: 3.5vw;
         color: #3F9CD5;
-    }
-    
+    } 
     p, span {
         font-family: 'Rajdhani', sans-serif;
         font-weight: 600;
         font-size: 2vw;
+    }
+    .b-check {
+        width: 1rem;
+        height: 2rem;
     }
 }
 
