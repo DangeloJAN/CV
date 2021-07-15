@@ -123,7 +123,7 @@ a:hover{
 
 @media only screen and (max-width: 480px) {
     .pentagono{
-        height: 300px;
+        height: 400px;
     }
     h1, h2, h3 {
         font-family: 'Rajdhani', sans-serif;
@@ -156,7 +156,7 @@ a:hover{
 
 @media only screen and (min-width: 480px) {
     .pentagono{
-        height: 300px;
+        height: 400px;
     }
     h1, h2, h3 {
         font-family: 'Rajdhani', sans-serif;
@@ -220,7 +220,7 @@ a:hover{
         font-size: 2vw;
     }
     .b-check {
-        width: 1rem;
+        width: .5rem;
         height: 2rem;
     }
 }
