@@ -11,7 +11,7 @@ body{
 
 .pentagono{
     width: 100%;
-    height: 600px;
+    height: 500px;
     clip-path: polygon(100% 0, 100% 75%, 50% 90%, 0 75%, 0 0);
     background-color: #0D5480;
     text-align: center;
@@ -91,7 +91,7 @@ p, span {
 
 .foto-personal {
     position: absolute;
-    top: 40%;
+    top: 100px;
     left: 6%;
     width: 20%;
     height: auto;
@@ -121,7 +121,7 @@ a:hover{
     color:#3F9CD5;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
     .pentagono{
         height: 400px;
     }
@@ -137,7 +137,7 @@ a:hover{
     }
     .foto-personal {
         position: absolute;
-        top: 40%;
+        top: 250px;
         left: 25%;
         width: 50%;
     }
@@ -151,12 +151,44 @@ a:hover{
         font-family: 'Rajdhani', sans-serif;
         font-weight: 600;
         font-size: 5vw;
-    }
+    }  
     .b-check {
         width: 2rem;
         height: 2rem;
     }
-    
+}
+
+@media only screen and (min-width: 400px) {
+    .pentagono{
+        height: 400px;
+    }
+    h1, h2, h3 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 700;
+        font-size: 10vw;
+    }
+    h6 {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 300;
+        font-size: 7vw;
+    }
+    .foto-personal {
+        position: absolute;
+        top: 250px;
+        left: 25%;
+        width: 50%;
+    }
+    .titulos {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 10vw;
+        color: #3F9CD5;
+    }
+    p, span {
+        font-family: 'Rajdhani', sans-serif;
+        font-weight: 600;
+        font-size: 5vw;
+    }  
 }
 
 @media only screen and (min-width: 480px) {
@@ -173,9 +205,12 @@ a:hover{
         font-weight: 300;
         font-size: 7vw;
     }
+    .info-personal {
+        margin-top: 7rem;
+    }
     .foto-personal {
         position: absolute;
-        top: 45%;
+        top: 30%;
         left: 25%;
         width: 50%;
     }
@@ -190,15 +225,11 @@ a:hover{
         font-weight: 600;
         font-size: 5vw;
     }
-    .b-check {
-        width: 3rem;
-        height: 2rem;
-    }
 }
 
 @media only screen and (min-width: 768px) {
     .pentagono{
-        height: 600px;
+        height: 450px;
     }
     h1, h2, h3 {
         font-family: 'Rajdhani', sans-serif;
@@ -226,24 +257,5 @@ a:hover{
         font-family: 'Rajdhani', sans-serif;
         font-weight: 600;
         font-size: 2vw;
-    }
-    .b-check {
-        width: 3rem;
-        height: 2rem;
-    }
-}
-
-@media (min-width: 700px) {
-    .pentagono {
-        height: 20%;
-    }
-    .foto-personal {
-        position: absolute;
-        top: 40%;
-        left: 6%;
-    }
-    .b-check {
-        width: 3rem;
-        height: 2rem;
     }
 }
