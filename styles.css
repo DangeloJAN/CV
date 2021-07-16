@@ -11,7 +11,7 @@ body{
 
 .pentagono{
     width: 100%;
-    height: 500px;
+    height: 600px;
     clip-path: polygon(100% 0, 100% 75%, 50% 90%, 0 75%, 0 0);
     background-color: #0D5480;
     text-align: center;
@@ -198,7 +198,7 @@ a:hover{
 
 @media only screen and (min-width: 768px) {
     .pentagono{
-        height: 500px;
+        height: 600px;
     }
     h1, h2, h3 {
         font-family: 'Rajdhani', sans-serif;
