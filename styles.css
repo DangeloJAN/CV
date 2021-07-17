@@ -156,9 +156,9 @@ a:hover{
         width: 2rem;
         height: 2rem;
     }
-    .ocultar{
+    /*.ocultar{
         display: none;
-    }
+    }*/
 }
 
 @media only screen and (min-width: 400px) {
@@ -192,9 +192,9 @@ a:hover{
         font-weight: 600;
         font-size: 5vw;
     }
-    .ocultar{
+    /*.ocultar{
         display: none;
-    }  
+    }*/  
 }
 
 @media only screen and (min-width: 480px) {
@@ -231,9 +231,9 @@ a:hover{
         font-weight: 600;
         font-size: 5vw;
     }
-    .ocultar{
+    /*.ocultar{
         display: none;
-    }
+    }*/
 }
 
 @media only screen and (min-width: 768px) {
@@ -267,7 +267,7 @@ a:hover{
         font-weight: 600;
         font-size: 2vw;
     }
-    .ocultar{
+    /*.ocultar{
         display: inline-block;
-    }
+    }*/
 }
